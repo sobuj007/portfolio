@@ -32,10 +32,15 @@ float: left;
            color: gold;
            letter-spacing: 2px;
               }
+              .left_content h4{
+                font-size:22px;
+                padding: 10px 5px;
+                color: orange;
+                  }
               .left_content p{
                   padding: 5px;
                 font-size: 16;
-                font-weight: 400w;
+                font-weight: 300;
                 text-align: justify;
                 line-height: 22px;
                 margin-bottom: 30px;
@@ -47,7 +52,7 @@ float: left;
                     color: white;
                     background-image: linear-gradient(orange, rgb(248, 170, 118));
                   font-size: 16;
-                  font-weight: 400;
+                  font-weight: 500;
                   border-radius: 5px;
                   text-transform: uppercase;
                   text-decoration: none;
@@ -78,12 +83,14 @@ float: right;
     }
         .dream_right_content h2{
             font-size: 80px;
+            margin-bottom: 25px;
               }
           
               .dream_right_content h3{
                   font-size: 60px;
                   padding: 35px 0px;
                     }
+                  
                     .dream_right_content h3 span{
                      color: gold;
                      letter-spacing: 2px;
@@ -91,7 +98,7 @@ float: right;
                         .dream_right_content p{
                             padding: 5px;
                           font-size: 16;
-                          font-weight: 400w;
+                          font-weight: 300;
                           text-align: justify;
                           line-height: 22px;
                           margin-bottom: 30px;
