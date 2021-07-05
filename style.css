@@ -8,17 +8,18 @@
     background-image: url('img/top-banner.png');
     background-position: center top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     width: 100%;
-
+   
     height: 100vh;
 }
 .left_content{
 position: relative;
-width: 45%;
-margin: 2%;
+width: 40%;
+margin: 4%;
 float: left;
+padding-left: 2%;
 }
 .left_content h2{
   font-size: 80px;
@@ -60,10 +61,11 @@ float: left;
                      }
 
 .right_content{
-    position: relative;
-    width: 45%;
-    margin: 2%;
-float: right;
+  position: relative;
+  width: 40%;
+  margin: 4%;
+  float: left;
+  padding-left: 2%;
     }
     .right_content img{
      
@@ -75,11 +77,22 @@ float: right;
 
 
 /* Dream Big area */
+.dreambig_area{
+  background-image: url('img/dream-bg.png');
+  background-position: right ;
+  background-repeat: no-repeat;
+ 
+ 
+  width: 100%;
+
+  height: 100vh;
+}
 .dream_right_content{
-    position: relative;
-    width: 45%;
-    margin: 2%;
-    float: right;
+  position: relative;
+width: 40%;
+margin: 4%;
+float: right;
+padding-left: 2%;
     }
         .dream_right_content h2{
             font-size: 80px;
@@ -118,10 +131,11 @@ float: right;
                                }
           
           .dream_left_content{
-              position: relative;
-              width: 45%;
-              margin: 2%;
-          float: left;
+            position: relative;
+width: 40%;
+margin: 4%;
+float: left;
+padding-left: 2%;
               }
               .dream_left_content img{
                
