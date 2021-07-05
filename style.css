@@ -159,19 +159,24 @@ padding-left: 2%;
   background-repeat: no-repeat;
 margin-bottom:150px;
 
+
  clear: both;
 }
 .exp_area h2{
 font-size: 45px;
 }
+.content_area{
+  margin:50px 0px;
+}
 
 .left_card{
   position: relative;
-width: 38%;
-margin: 4%;
+width: 40%;
+margin-left: 4%;
 height: 500px;
 float: left;
 padding-left: 2%;
+padding-right: 2%;
 border-left: 7px solid;
 border-image: linear-gradient(180deg, lightsalmon, tomato);
 border-image-slice: 1;
@@ -180,8 +185,8 @@ box-shadow: 5px 7px 40px grey
 
 
 .left_card h2{
-  font-size: 40px;
-  padding: 25px 0px;
+  font-size: 55px;
+  padding: 55px 0px;
   
 }
 
@@ -208,11 +213,12 @@ box-shadow: 5px 7px 40px grey
 }
 .right_card{
   position: relative;
-width: 38%;
-margin: 4%;
+width: 40%;
+margin-right: 4%;
 height: 500px;
 float: right;
 padding-left: 2%;
+padding-right: 2%;
 border-left: 7px solid;
 border-image: linear-gradient(
   180deg
@@ -223,8 +229,8 @@ box-shadow:5px 7px 40px grey
 
 
 .right_card h2{
-  font-size: 35px;
-  padding: 25px 0px;
+  font-size: 55px;
+  padding: 55px 0px;
   
 }
 
